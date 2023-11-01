@@ -1,7 +1,7 @@
 .secMainVisual {
-    // background-image: url(./image/top_PC2.png);
-    // background-size: contain;
-    // background-repeat: no-repeat;
+    background-image: url(./image/top_PC2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     font-family: "Noto Serif JP", sans-serif;
     font-weight: 500;
     height: 290%;
@@ -44,15 +44,15 @@
     position: relative;
 }
 
-#video {
-    z-index: 20;
-    position: absolute;
-    width: 100%;
-    top:0;
-    left: 0;
-    height: auto;
-    border: solid 1px;
-}
+// #video {
+//     z-index: 20;
+//     position: absolute;
+//     width: 100%;
+//     top:0;
+//     left: 0;
+//     height: auto;
+//     border: solid 1px;
+// }
 
 .video2 {
     position: absolute;
