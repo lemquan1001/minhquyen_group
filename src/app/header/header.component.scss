@@ -1,0 +1,73 @@
+.wrap{
+    width: 90%;
+    max-width: 100%;
+    margin-left: 135px;
+    //background-color: #fff;
+  }
+  p {
+    font-size: 14px;
+    width: 25%;
+    color: black;
+    display: inline;
+    padding-left: 35px;
+    padding-right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.contact {
+    color: #ffffff;
+    background: #000000;
+    padding: 5px 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+
+.logoCompany {
+    filter: invert(1);
+}
+
+.headerMain {
+  display: flex;
+  position: relative;
+  padding: 20px 0;
+}
+.linkArea {
+  margin-left: 120px;
+}
+
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  animation-duration: 0.5s;
+}
+
+
+.container.active {
+
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  animation-duration: 0.5s;
+}
+
+
+
+
+// .animated {
+//   position: fixed !important;
+//   top: 0;
+//   left: 0;
+//   //background: #ffffff;
+//   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+//   padding-bottom: 0px;
+
+  
+//    -webkit-animation-duration: 0.5s;
+//    animation-duration: 0.5s;
+//   }
+

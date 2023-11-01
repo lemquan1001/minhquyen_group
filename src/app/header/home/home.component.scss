@@ -1,0 +1,62 @@
+.secMainVisual {
+    // background-image: url(./image/top_PC2.png);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    font-family: "Noto Serif JP", sans-serif;
+    font-weight: 500;
+    height: 290%;
+    
+}
+
+
+.visible-xs {
+    display: none;
+}
+.textJa {
+    font-size: min(2.4vw, 33px);
+}
+
+.textEn {
+    display: inline-block;
+    transform-origin: top left;
+    font-size: min(1.9vw, 26px);
+    transform: scale(0.5);
+}
+
+
+.topText {
+    font-size: min(0.95vw, 13px);
+    padding-top: min(31.27vw, 430px);
+    padding-left: min(16vw, 220px);
+    padding-bottom: min(6.54vw, 90px);
+}
+
+.topSubText {
+    line-height: 2;
+}
+
+.topSubText {
+    font-size: min(1.38vw, 19px);
+    margin-left: min(52vw, 715px);
+}
+
+.video1 {
+    position: relative;
+}
+
+#video {
+    z-index: 20;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+    height: auto;
+    border: solid 1px;
+}
+
+.video2 {
+    position: absolute;
+    //background: rgba(0,0,0,0.5);
+}
+
+
