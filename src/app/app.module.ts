@@ -3,19 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BodyComponent } from './body/body.component';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './header/home/home.component';
-import { NewsComponent } from './header/news/news.component';
+import { HomeComponent } from './view/home/home.component';
+import { NewsComponent } from './view/news/news.component';
+import { FooterComponent } from './view/components/footer/footer.component';
+import { HeaderComponent } from './view/components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BodyComponent,
-    HeaderComponent,
-    FooterComponent,
     HomeComponent,
+    NewsComponent,
+    FooterComponent,
+    HeaderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
