@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-news',
   templateUrl: './news.component.html',
-  styleUrls: []
+  styleUrls: ['./news.component.css'],
 })
-export class NewsComponent {
-
-}
+export class NewsComponent {}

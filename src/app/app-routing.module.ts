@@ -5,7 +5,7 @@ import { NewsComponent } from './view/news/news.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
   },
   {
